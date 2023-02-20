@@ -1,0 +1,68 @@
+*{
+    font-family: 'Times New Roman', Times, serif ;
+    margin: 0;
+}
+
+
+#headerr{
+    background-color: #FFC045;
+    border: 1px solid red;
+}
+
+#topbar{
+
+    overflow: auto;
+}
+
+
+#burgerhousee{
+
+    /* border: 1px solid red; */
+float: left;
+
+}
+    
+#burgerhousee img {
+    width: 150px;
+padding-left: 20px;
+padding-top: 21px;
+
+}
+
+#expressdel{
+
+    /* border: 1px solid red; */
+    float: right;
+    margin-right: 135px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+ #expresslogo{
+    /* border: 1px solid red; */
+    size: 10px ;
+
+} 
+
+#expresslogo img{
+
+    width: 26px;
+    padding: right 10px;
+}
+
+#expresstext{
+
+    /* border: 1px solid red; */
+font-size: 10px;
+}
+
+.expreso{
+
+display: inline-block;
+
+}
