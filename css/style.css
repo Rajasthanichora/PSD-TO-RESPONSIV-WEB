@@ -173,8 +173,6 @@ ul {
 #foott {
   height: 60%;
   margin-top: 132px;
-  /* height: 19%;
-  margin-top: 283px; */
 }
 
 #foott2 {
@@ -207,4 +205,63 @@ ul {
   float: left;
   padding-right: 48px;
   padding-left: 12px;
+}
+
+/* foodsection1 */
+
+#foodsection1 {
+  height: 347px;
+  display: flex;
+  margin: 50px;
+}
+
+#leftfsection {
+  width: 50%;
+  background-size: cover;
+  background-image: url(../images/burgerimage2.jpg);
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+#rightfsection {
+  width: 50%;
+}
+
+#rightfsection1 {
+  background-image: url(../images/burgerimage3.jpg);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  height: 155px;
+  background-size: cover;
+}
+
+#rightfsection2 {
+  background-image: url(../images/burgerimage4.jpg);
+  height: 156px;
+  margin-top: 35px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#leftfsection p {
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 112px;
+}
+
+#rightfsection1 p {
+  color: white;
+  width: 94px;
+  padding-top: 28px;
+  padding-left: 32px;
+}
+
+#rightfsection2 p {
+  color: white;
+  padding-top: 28px;
+  padding-left: 32px;
+  width: 100px;
 }
