@@ -7,11 +7,11 @@
 
 #headerr {
   background-color: #ffc045;
-  border: 1px solid red;
   height: 551px;
 }
 
 /* topbar */
+
 #topbar {
   overflow: auto;
 }
@@ -109,6 +109,7 @@ ul {
   text-align: right;
   margin-top: 109px;
 }
+
 #lastbar #pop2 {
   font-size: 76px;
   padding-left: 78px;
@@ -120,4 +121,90 @@ ul {
   padding-left: 76px;
 
   height: 38%;
+}
+
+/* footer */
+
+#footerr {
+  height: 525px;
+  margin: 31px;
+  background-image: url(../images/footer.jpg);
+}
+
+/* foooterbar2 */
+
+#footerbar2 {
+  height: 70%;
+}
+
+/* footerbar */
+
+#footerbar {
+  overflow: auto;
+}
+
+#copyright {
+  height: 19px;
+  float: left;
+  width: 281px;
+  color: white;
+  padding-left: 38px;
+  margin-top: 110px;
+}
+
+#socialicon {
+  height: 35px;
+  float: right;
+  padding-right: 38px;
+  margin-top: 94px;
+}
+
+.fa-brands {
+  background-color: white;
+  color: black;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.fa-facebook-f {
+  padding: 7px 9px;
+}
+
+#foott {
+  height: 60%;
+  margin-top: 132px;
+  /* height: 19%;
+  margin-top: 283px; */
+}
+
+#foott2 {
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: 116px;
+  padding-left: 50px;
+}
+
+#foott3 {
+  color: white;
+  width: 36%;
+  position: relative;
+  font-size: 24px;
+  top: 119px;
+  left: 504px;
+}
+
+#foott4 {
+  width: 34%;
+  font-size: 25px;
+  position: relative;
+  top: 126px;
+  left: 503px;
+  color: white;
+}
+
+.fa-solid {
+  float: left;
+  padding-right: 48px;
+  padding-left: 12px;
 }
