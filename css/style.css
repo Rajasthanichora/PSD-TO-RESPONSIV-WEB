@@ -265,3 +265,163 @@ ul {
   padding-left: 32px;
   width: 100px;
 }
+
+/* foodsection2 */
+
+#foodsection2 {
+  color: #3d2514;
+}
+
+/* alwaystext */
+#alwaystextsec {
+  display: flex;
+  display: block;
+}
+
+#textsec1 {
+  background-color: #ffc045;
+  display: inline-block;
+  padding: 8px 14px;
+  display: flex;
+  justify-content: center;
+  margin-right: 400px;
+  margin-left: 412px;
+}
+
+#textsec2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 420px;
+  margin-left: 312px;
+  margin-top: 23px;
+  font-size: 31px;
+}
+
+#textsec3 {
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* foodsecburgur */
+
+#foodsecburgur {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 419px;
+  display: flex;
+  margin-top: 75px;
+}
+
+/* burgursec1 */
+
+#burgursec1 {
+  width: 33.33%;
+}
+
+#burgursec2 {
+  width: 33.33%;
+}
+
+#burgursec3 {
+  width: 33.33%;
+}
+
+#ordernowsec1 {
+  background-image: url(../images/burger5-removebg-preview.png);
+  height: 246px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#ordernowsec2 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 6px;
+}
+
+#ordernowsec3 {
+  font-size: 14px;
+  margin: 5px;
+}
+
+#ordernowsec4 {
+  background-color: #bf2222;
+  display: inline-block;
+  padding: 10px 47px;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  display: flex;
+  margin-top: 44px;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* burgursec2 */
+
+#order2nowsec1 {
+  background-image: url(../images/burger6-removebg-preview.png);
+  height: 246px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#order2nowsec2 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 6px;
+}
+
+#order2nowsec3 {
+  font-size: 14px;
+  margin: 5px;
+}
+
+#order2nowsec4 {
+  background-color: #bf2222;
+  display: inline-block;
+  padding: 10px 47px;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  display: flex;
+  margin-top: 44px;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* burgursec3 */
+
+#order3nowsec1 {
+  background-image: url(../images/burger5-removebg-preview.png);
+  height: 246px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#order3nowsec2 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 6px;
+}
+
+#order3nowsec3 {
+  font-size: 14px;
+  margin: 5px;
+}
+
+#order3nowsec4 {
+  background-color: #bf2222;
+  display: inline-block;
+  padding: 10px 47px;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  display: flex;
+  margin-top: 44px;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
