@@ -1,68 +1,123 @@
-*{
-    font-family: 'Times New Roman', Times, serif ;
-    margin: 0;
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
 }
 
+/* header */
 
-#headerr{
-    background-color: #FFC045;
-    border: 1px solid red;
+#headerr {
+  background-color: #ffc045;
+  border: 1px solid red;
+  height: 551px;
 }
 
-#topbar{
-
-    overflow: auto;
+/* topbar */
+#topbar {
+  overflow: auto;
 }
 
-
-#burgerhousee{
-
-    /* border: 1px solid red; */
-float: left;
-
+#burgerhousee {
+  float: left;
 }
-    
+
 #burgerhousee img {
-    width: 150px;
-padding-left: 20px;
-padding-top: 21px;
-
+  width: 150px;
+  padding-left: 20px;
+  padding-top: 21px;
 }
 
-#expressdel{
-
-    /* border: 1px solid red; */
-    float: right;
-    margin-right: 135px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#expressdel {
+  float: right;
+  margin-right: 135px;
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-
- #expresslogo{
-    /* border: 1px solid red; */
-    size: 10px ;
-
-} 
-
-#expresslogo img{
-
-    width: 26px;
-    padding: right 10px;
+.expreso {
+  display: inline-block;
 }
 
-#expresstext{
-
-    /* border: 1px solid red; */
-font-size: 10px;
+#expresslogo {
+  size: 10px;
 }
 
-.expreso{
+#expresslogo img {
+  width: 26px;
+  padding: right 10px;
+}
 
-display: inline-block;
+#expresstext {
+  font-size: 10px;
+}
 
+/* midbar */
+
+#midbar {
+  height: 50px;
+  margin-top: -14px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+ul {
+  margin: 16px;
+  float: right;
+  margin-right: 127px;
+  margin-top: 2px;
+  font-size: 13px;
+}
+
+.navigas {
+  padding-right: 23px;
+}
+
+/* lastbar */
+
+#lastbar {
+  padding-top: 1px;
+
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  width: 94%;
+  height: 403px;
+  background-image: url(../images/specialll\ 2.jpg);
+  position: static;
+}
+
+#lastbar #pop0 {
+  width: 255px;
+  height: 30px;
+
+  border: 1px solid black;
+  border-style: dashed;
+
+  position: absolute;
+  top: 221px;
+  left: 75px;
+
+  border-radius: 3px;
+}
+
+#lastbar #pop1 {
+  font-size: 47px;
+  text-align: right;
+  margin-top: 109px;
+}
+#lastbar #pop2 {
+  font-size: 76px;
+  padding-left: 78px;
+  margin-top: -13px;
+}
+
+#lastbar #pop3 {
+  font-size: 163px;
+  padding-left: 76px;
+
+  height: 38%;
 }
