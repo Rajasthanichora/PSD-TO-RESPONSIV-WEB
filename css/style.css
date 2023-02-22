@@ -41,11 +41,11 @@
 
 #expresslogo {
   size: 10px;
+  padding-right: 6px;
 }
 
 #expresslogo img {
   width: 26px;
-  padding: right 10px;
 }
 
 #expresstext {
@@ -129,6 +129,7 @@ ul {
   height: 525px;
   margin: 31px;
   background-image: url(../images/footer.jpg);
+  border-radius: 5px;
 }
 
 /* foooterbar2 */
@@ -274,18 +275,17 @@ ul {
 
 /* alwaystext */
 #alwaystextsec {
-  display: flex;
   display: block;
 }
 
 #textsec1 {
   background-color: #ffc045;
-  display: inline-block;
   padding: 8px 14px;
   display: flex;
   justify-content: center;
   margin-right: 400px;
   margin-left: 412px;
+  border-radius: 4px;
 }
 
 #textsec2 {
@@ -346,7 +346,6 @@ ul {
 
 #ordernowsec4 {
   background-color: #bf2222;
-  display: inline-block;
   padding: 10px 47px;
   font-weight: bold;
   color: white;
@@ -356,6 +355,7 @@ ul {
   align-items: center;
   margin-left: 50px;
   margin-right: 50px;
+  border-radius: 5px;
 }
 
 /* burgursec2 */
@@ -380,7 +380,6 @@ ul {
 
 #order2nowsec4 {
   background-color: #bf2222;
-  display: inline-block;
   padding: 10px 47px;
   font-weight: bold;
   color: white;
@@ -390,6 +389,7 @@ ul {
   align-items: center;
   margin-left: 50px;
   margin-right: 50px;
+  border-radius: 5px;
 }
 
 /* burgursec3 */
@@ -414,7 +414,6 @@ ul {
 
 #order3nowsec4 {
   background-color: #bf2222;
-  display: inline-block;
   padding: 10px 47px;
   font-weight: bold;
   color: white;
@@ -424,4 +423,81 @@ ul {
   align-items: center;
   margin-left: 50px;
   margin-right: 50px;
+  border-radius: 5px;
+}
+
+/* upcoming event section */
+
+#upcomingeve {
+  display: flex;
+  height: 286px;
+  margin: 35px;
+  margin-top: 90px;
+}
+
+#upcomingeveleft {
+  height: 267px;
+  width: 35%;
+  padding-right: 200px;
+}
+
+#upcomingeveright {
+  background-image: url(../images/burger7.jpg);
+  width: 40%;
+  height: 247px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#eventt1 {
+  font-size: 27px;
+  padding-top: 30px;
+  padding-left: 36px;
+}
+
+#eventt2 {
+  font-size: 39px;
+  margin-top: 5px;
+  margin-left: 39px;
+}
+
+#eventt3 {
+  font-size: 16px;
+  margin-right: -198px;
+  margin-left: 27px;
+  margin-top: 28px;
+}
+
+#doteve {
+  height: 50px;
+  display: flex;
+  margin-left: 23px;
+  margin-top: 37px;
+}
+
+#doteve1 {
+  background-color: #ffc045;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 4px;
+}
+
+#doteve2 {
+  background-color: #dcdcdc;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-top: 15px;
+}
+
+#doteve3 {
+  background-color: #dcdcdc;
+  margin-top: 15px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
 }
