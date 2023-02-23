@@ -33,13 +33,6 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- fontawesom -->
-
-    <script
-      src="https://kit.fontawesome.com/7a4f27f53c.js"
-      crossorigin="anonymous"
-    ></script>
-
     <!-- style -->
 
     <link rel="stylesheet" href="css/style.css" />
@@ -48,7 +41,9 @@
   </head>
   <body>
     <!-- container -->
+
     <div id="container">
+
       <!-- header -->
 
       <header id="headerr">
@@ -72,13 +67,22 @@
         <div id="midbar">
           <nav>
             <ul>
-              <li class="navigas">Home</li>
-              <li class="navigas">Menu</li>
-              <li class="navigas">Our Story</li>
-              <li class="navigas">Contact Us</li>
+              <a href="index.html">
+                <li class="navigas" id="navigas0">Home</li>
+              </a>
+              <a href="/Pages/menu.html">
+                <li class="navigas" id="navigas1">Menu</li>
+              </a>
+              <a href="/Pages/ourstory.html">
+                <li class="navigas" id="navigas2">Our Story</li>
+              </a>
+              <a href="/Pages/contactus.html">
+                <li class="navigas" id="navigas3">Contact Us</li>
+              </a>
             </ul>
           </nav>
         </div>
+
         <!-- lastbar -->
 
         <div id="lastbar">
@@ -194,9 +198,34 @@
         <div id="upcomingeveright"></div>
       </div>
 
+      <!-- tablesection -->
+
+      <div id="tablesection">
+        <div id="tabletextsec">
+          <div id="tabletextsec1">
+            <p>Reservation</p>
+          </div>
+          <div id="tabletextsec2">
+            <p>Book your table</p>
+          </div>
+        </div>
+        <div id="formsec">
+          <div id="bottalimgg"></div>
+          <form action="" id="formbook">
+            <input type="text" name="" class="manfor" placeholder="NAME" />
+            <input type="text" name="" class="manfor" placeholder="Email" />
+            <input type="text" name="" class="manfor" placeholder="Date" />
+            <input type="text" name="" class="manfor" placeholder="Time" />
+            <input type="text" name="" class="manfor" placeholder="People" />
+            <input type="submit" value="Find A Table" id="findatablee" />
+          </form>
+        </div>
+      </div>
+
       <!-- footer -->
 
       <div id="footerr">
+
         <!-- footerbar2 -->
 
         <div id="footerbar2">
@@ -218,17 +247,14 @@
             </div>
           </div>
         </div>
+
         <!-- footerbar -->
+        
         <div id="footerbar">
           <div id="copyright">
             <p>&copy; Tasty Burger 2020. All Rights Reserved.</p>
           </div>
-          <div id="socialicon">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-          </div>
+          <div id="socialicon"></div>
         </div>
       </div>
     </div>
