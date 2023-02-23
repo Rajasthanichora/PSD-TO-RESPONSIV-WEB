@@ -8,6 +8,7 @@
 #headerr {
   background-color: #ffc045;
   height: 551px;
+  color: #3d2514;
 }
 
 /* topbar */
@@ -71,8 +72,16 @@ ul {
   font-size: 13px;
 }
 
-.navigas {
-  padding-right: 23px;
+nav ul a {
+  color: #3d2514;
+  text-decoration: none;
+  padding: 8px 13px;
+}
+
+a:hover {
+  color: white;
+  background-color: #bf2222;
+  border-radius: 8px;
 }
 
 /* lastbar */
@@ -121,91 +130,6 @@ ul {
   padding-left: 76px;
 
   height: 38%;
-}
-
-/* footer */
-
-#footerr {
-  height: 525px;
-  margin: 31px;
-  background-image: url(../images/footer.jpg);
-  border-radius: 5px;
-}
-
-/* foooterbar2 */
-
-#footerbar2 {
-  height: 70%;
-}
-
-/* footerbar */
-
-#footerbar {
-  overflow: auto;
-}
-
-#copyright {
-  height: 19px;
-  float: left;
-  width: 281px;
-  color: white;
-  padding-left: 38px;
-  margin-top: 110px;
-}
-
-#socialicon {
-  height: 35px;
-  float: right;
-  padding-right: 38px;
-  margin-top: 94px;
-}
-
-.fa-brands {
-  background-color: white;
-  color: black;
-  padding: 7px;
-  border-radius: 50%;
-}
-
-.fa-facebook-f {
-  padding: 7px 9px;
-}
-
-#foott {
-  height: 60%;
-  margin-top: 132px;
-}
-
-#foott2 {
-  color: white;
-  font-size: 15px;
-  position: relative;
-  top: 116px;
-  padding-left: 50px;
-}
-
-#foott3 {
-  color: white;
-  width: 36%;
-  position: relative;
-  font-size: 24px;
-  top: 119px;
-  left: 504px;
-}
-
-#foott4 {
-  width: 34%;
-  font-size: 25px;
-  position: relative;
-  top: 126px;
-  left: 503px;
-  color: white;
-}
-
-.fa-solid {
-  float: left;
-  padding-right: 48px;
-  padding-left: 12px;
 }
 
 /* foodsection1 */
@@ -357,6 +281,10 @@ ul {
   margin-right: 50px;
   border-radius: 5px;
 }
+#ordernowsec4:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
 /* burgursec2 */
 
@@ -392,6 +320,11 @@ ul {
   border-radius: 5px;
 }
 
+#order2nowsec4:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 /* burgursec3 */
 
 #order3nowsec1 {
@@ -425,6 +358,10 @@ ul {
   margin-right: 50px;
   border-radius: 5px;
 }
+#order3nowsec4:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
 /* upcoming event section */
 
@@ -453,12 +390,14 @@ ul {
   font-size: 27px;
   padding-top: 30px;
   padding-left: 36px;
+  color: #3d3d3d;
 }
 
 #eventt2 {
   font-size: 39px;
   margin-top: 5px;
   margin-left: 39px;
+  color: #3d2514;
 }
 
 #eventt3 {
@@ -466,6 +405,7 @@ ul {
   margin-right: -198px;
   margin-left: 27px;
   margin-top: 28px;
+  color: #3d3d3d;
 }
 
 #doteve {
@@ -500,4 +440,156 @@ ul {
   width: 12px;
   height: 12px;
   border-radius: 50%;
+}
+
+/* tablesection */
+
+#tablesection {
+  margin-right: 65px;
+  margin-left: 65px;
+  height: 360px;
+  color: #3d2514;
+}
+
+#tabletextsec {
+  height: 87px;
+}
+
+#tabletextsec1 {
+  text-align: center;
+  padding-right: 75px;
+  font-size: 19px;
+}
+
+#tabletextsec2 {
+  text-align: center;
+  padding-right: 197px;
+  margin-top: 15px;
+  font-size: 29px;
+}
+
+#formsec {
+  margin: 43px;
+  height: 213px;
+  display: flex;
+}
+
+#bottalimgg {
+  background-image: url(../images/bottle-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 63px;
+}
+
+/* formsection */
+
+#formbook {
+  margin-left: 52px;
+  margin-top: 20px;
+}
+
+.manfor {
+  background-color: #ebae4c;
+  border-style: none;
+  padding: 13px 38px;
+  border-radius: 4px;
+  margin: 7px;
+  margin-right: 13px;
+}
+#formbook {
+  width: 536px;
+  height: 164px;
+}
+::placeholder {
+  color: #3d3d3d;
+}
+#findatablee {
+  background-color: #bf2222;
+  border-style: none;
+  padding: 13px 87px;
+  border-radius: 4px;
+  margin: 7px;
+  margin-right: 13px;
+  color: white;
+}
+
+#findatablee:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+/* footer */
+
+#footerr {
+  height: 525px;
+  margin: 31px;
+  background-image: url(../images/footer.jpg);
+  border-radius: 5px;
+}
+
+/* foooterbar2 */
+
+#footerbar2 {
+  height: 70%;
+}
+
+/* footerbar */
+
+#footerbar {
+  overflow: auto;
+}
+
+#copyright {
+  height: 19px;
+  float: left;
+  width: 281px;
+  color: white;
+  padding-left: 38px;
+  margin-top: 110px;
+}
+
+#socialicon {
+  background-image: url(../images/new.jpg);
+  float: right;
+  width: 120px;
+  height: 30px;
+  margin-top: 104px;
+  margin-right: 24px;
+}
+
+#foott {
+  height: 60%;
+  margin-top: 132px;
+}
+
+#foott2 {
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: 116px;
+  padding-left: 50px;
+}
+
+#foott3 {
+  color: white;
+  width: 36%;
+  position: relative;
+  font-size: 24px;
+  top: 119px;
+  left: 504px;
+}
+
+#foott4 {
+  width: 34%;
+  font-size: 25px;
+  position: relative;
+  top: 126px;
+  left: 503px;
+  color: white;
+}
+
+.fa-solid {
+  float: left;
+  padding-right: 48px;
+  padding-left: 12px;
 }
