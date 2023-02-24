@@ -1,0 +1,358 @@
+/*   Responsiv =  I pad     */
+
+@media only screen and (max-width: 768px) {
+  #lastbar #pop1 {
+    font-size: 37px;
+  }
+  #lastbar #pop3 {
+    font-size: 128px;
+    padding-left: 30px;
+  }
+  #leftfsection {
+    width: 301px;
+    height: 212px;
+  }
+  #rightfsection1 {
+    height: 106px;
+  }
+  #rightfsection2 {
+    height: 107px;
+  }
+  #foodsection1 {
+    height: 256px;
+  }
+  #textsec1 {
+    padding: 12px 14px;
+    margin-right: 275px;
+    margin-left: 275px;
+  }
+  #textsec2 {
+    margin-right: 268px;
+    margin-left: 264px;
+  }
+  #ordernowsec3 {
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 30px;
+  }
+  #order2nowsec3 {
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 30px;
+  }
+  #order3nowsec3 {
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 30px;
+  }
+  #ordernowsec4 {
+    padding: 14px 47px;
+    margin-left: 36px;
+    margin-right: 36px;
+  }
+  #order2nowsec4 {
+    padding: 14px 47px;
+    margin-left: 36px;
+    margin-right: 36px;
+  }
+  #order3nowsec4 {
+    padding: 14px 47px;
+    margin-left: 36px;
+    margin-right: 36px;
+  }
+  #upcomingeveright {
+    width: 50%;
+  }
+  #formsec {
+    display: inline-flex;
+    margin: 20px;
+  }
+  #formbook {
+    margin-left: 25px;
+  }
+}
+
+/*   Responsiv =  Mobiles  */
+
+@media only screen and (max-width: 500px) {
+  #burgerhousee {
+    float: none;
+    text-align: center;
+    height: 76px;
+  }
+  #burgerhousee img {
+    width: 245px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  #expressdel {
+    float: none;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #midbar {
+    height: 42px;
+    margin-top: 10px;
+  }
+  ul {
+    margin: 0px;
+    float: none;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 16px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  #lastbar {
+    padding-top: 1px;
+    padding-right: 0px;
+    background-position: center;
+    width: 95%;
+    height: 291px;
+  }
+  #lastbar #pop0 {
+    width: 296px;
+    height: 22px;
+    top: 159px;
+    left: 30px;
+  }
+  #lastbar #pop1 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  #lastbar #pop2 {
+    font-size: 76px;
+    padding-left: 10px;
+    margin-top: -6px;
+  }
+  #lastbar #pop3 {
+    font-size: 128px;
+    padding-left: 42px;
+    margin-top: 156px;
+  }
+  #foodsection1 {
+    margin: 16px;
+    display: block;
+    height: 485px;
+  }
+  #leftfsection {
+    width: 335px;
+    height: 236px;
+    margin-left: 4px;
+    margin-right: 0px;
+  }
+  #leftfsection p {
+    margin-top: 0px;
+    margin-left: 13px;
+    width: 112px;
+    padding-top: 18px;
+  }
+  #rightfsection {
+    width: auto;
+  }
+  #rightfsection2 {
+    height: 111px;
+    width: 343px;
+    background-size: contain;
+    margin-top: 10px;
+  }
+  #rightfsection1 {
+    height: 111px;
+    width: 343px;
+    background-size: contain;
+    margin-top: 10px;
+  }
+  #textsec1 {
+    padding: 10px 14px;
+    margin-right: 96px;
+    margin-left: 96px;
+  }
+  #textsec2 {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 11px;
+  }
+  #foodsecburgur {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 1170px;
+    display: block;
+    margin-top: 42px;
+  }
+  /* burgursec */
+  #burgursec1 {
+    width: auto;
+  }
+  #burgursec2 {
+    width: auto;
+  }
+  #burgursec3 {
+    width: auto;
+  }
+  /* ordernowsec */
+  #ordernowsec1 {
+    margin-left: 17px;
+  }
+  #order2nowsec1 {
+    margin-left: 41px;
+    margin-top: 36px;
+  }
+  #order3nowsec1 {
+    margin-left: 16px;
+    margin-top: 37px;
+  }
+
+  #ordernowsec3 {
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 0px;
+  }
+  #order2nowsec3 {
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 0px;
+  }
+  #order3nowsec3 {
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 0px;
+  }
+  #ordernowsec4 {
+    padding: 7px 0px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 28px;
+  }
+
+  #order2nowsec4 {
+    padding: 7px 0px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 28px;
+  }
+  #order3nowsec4 {
+    padding: 7px 0px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 28px;
+  }
+
+  /* upcoming event section */
+
+  #upcomingeve {
+    display: block;
+    height: 448px;
+    margin: 16px;
+  }
+  #upcomingeveleft {
+    height: auto;
+    width: auto;
+    padding-right: 0px;
+  }
+  #eventt1 {
+    font-size: 27px;
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  #eventt2 {
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  #eventt3 {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 28px;
+    text-align: center;
+  }
+  #upcomingeveright {
+    width: auto;
+    margin-top: 31px;
+    border-radius: 11px;
+    height: 228px;
+  }
+  #doteve {
+    display: none;
+  }
+
+  /* table section */
+
+  #tablesection {
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 444px;
+  }
+
+  /* table text  */
+
+  #tabletextsec {
+    height: 73px;
+  }
+  #tabletextsec1 {
+    padding-right: 0px;
+  }
+  #tabletextsec2 {
+    padding-right: 0px;
+  }
+
+  /* form */
+
+  #formbook {
+    width: 262px;
+    height: 338px;
+    margin-left: 5px;
+    margin-top: 0px;
+  }
+
+  /* footer */
+
+  #footerr {
+    height: 274px;
+  }
+  #footerbar2 {
+    height: 37%;
+  }
+  #foott {
+    height: auto;
+    margin-top: 0px;
+  }
+  #foott2 {
+    top: 20px;
+    text-align: center;
+    padding-left: 8px;
+  }
+  #foott3 {
+    width: auto;
+    text-align: center;
+    top: 28px;
+    left: 0px;
+  }
+  #foott4 {
+    width: auto;
+    position: relative;
+    top: 33px;
+    text-align: center;
+    left: 0px;
+  }
+
+  /* footerbar */
+
+  #copyright {
+    height: 19px;
+    float: none;
+    width: auto;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 75px;
+  }
+  #socialicon {
+    float: none;
+    width: auto;
+    background-repeat: no-repeat;
+    margin-top: 36px;
+    margin-right: 0px;
+    margin-left: 91px;
+  }
+}
