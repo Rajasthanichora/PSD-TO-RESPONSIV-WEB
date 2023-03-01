@@ -7,7 +7,7 @@
 
 #headerr {
   background-color: #ffc045;
-  height: 551px;
+  height: 525px;
   color: #3d2514;
 }
 
@@ -88,7 +88,7 @@ a:hover {
 
 #lastbar {
   padding-top: 1px;
-
+  position: relative;
   padding-right: 20px;
   background-repeat: no-repeat;
   background-position: right;
@@ -100,36 +100,54 @@ a:hover {
 }
 
 #lastbar #pop0 {
-  width: 255px;
-  height: 30px;
-
+  width: 497px;
+  height: 37px;
   border: 1px solid black;
   border-style: dashed;
-
   position: absolute;
   top: 221px;
-  left: 75px;
-
+  left: 59px;
   border-radius: 3px;
 }
 
 #lastbar #pop1 {
-  font-size: 47px;
-  text-align: right;
+  font-size: 27px;
+  margin-left: 64px;
+  text-align: left;
   margin-top: 109px;
+  padding-bottom: 24px;
 }
 
 #lastbar #pop2 {
-  font-size: 76px;
-  padding-left: 78px;
+  font-size: 120px;
+  padding-left: 51px;
   margin-top: -13px;
+  font-weight: 900;
 }
 
 #lastbar #pop3 {
-  font-size: 163px;
-  padding-left: 76px;
+  font-size: 47px;
+  padding-left: 52px;
+  font-weight: 900;
+  margin-top: -28px;
+}
 
-  height: 38%;
+#lastbar #pop4 {
+  font-weight: 900;
+  font-size: 16px;
+  position: absolute;
+  right: 347px;
+  width: 55px;
+  text-align: center;
+  bottom: -113px;
+  color: white;
+}
+
+#dollor5 {
+  font-size: 46px;
+  position: absolute;
+  top: -26px;
+  left: -29px;
 }
 
 /* foodsection1 */
@@ -210,15 +228,15 @@ a:hover {
   margin-right: 400px;
   margin-left: 412px;
   border-radius: 4px;
+  font-weight: 900;
 }
 
 #textsec2 {
   display: flex;
   justify-content: center;
-  margin-right: 420px;
-  margin-left: 312px;
   margin-top: 23px;
-  font-size: 31px;
+  font-size: 50px;
+  font-weight: 900;
 }
 
 #textsec3 {
@@ -261,6 +279,7 @@ a:hover {
   font-size: 26px;
   text-align: center;
   margin-top: 6px;
+  font-weight: bold;
 }
 
 #ordernowsec3 {
@@ -299,6 +318,7 @@ a:hover {
   font-size: 26px;
   text-align: center;
   margin-top: 6px;
+  font-weight: bold;
 }
 
 #order2nowsec3 {
@@ -338,6 +358,7 @@ a:hover {
   font-size: 26px;
   text-align: center;
   margin-top: 6px;
+  font-weight: bold;
 }
 
 #order3nowsec3 {
@@ -396,14 +417,15 @@ a:hover {
 #eventt2 {
   font-size: 39px;
   margin-top: 5px;
-  margin-left: 39px;
+  margin-left: 28px;
   color: #3d2514;
+  font-weight: bold;
 }
 
 #eventt3 {
   font-size: 16px;
-  margin-right: -198px;
-  margin-left: 27px;
+  margin-right: -120px;
+  margin-left: 31px;
   margin-top: 28px;
   color: #3d3d3d;
 }
@@ -411,7 +433,7 @@ a:hover {
 #doteve {
   height: 50px;
   display: flex;
-  margin-left: 23px;
+  margin-left: 17px;
   margin-top: 37px;
 }
 
@@ -457,15 +479,15 @@ a:hover {
 
 #tabletextsec1 {
   text-align: center;
-  padding-right: 75px;
-  font-size: 19px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #tabletextsec2 {
   text-align: center;
-  padding-right: 197px;
-  margin-top: 15px;
-  font-size: 29px;
+  margin-top: 4px;
+  font-size: 47px;
+  font-weight: bold;
 }
 
 #formsec {
@@ -566,25 +588,24 @@ a:hover {
   color: white;
   font-size: 15px;
   position: relative;
-  top: 116px;
+  top: 209px;
   padding-left: 50px;
+  width: 46%;
 }
 
 #foott3 {
   color: white;
-  width: 36%;
   position: relative;
-  font-size: 24px;
+  font-size: 31px;
   top: 119px;
-  left: 504px;
+  left: 598px;
 }
 
 #foott4 {
-  width: 34%;
-  font-size: 25px;
+  font-size: 31px;
   position: relative;
   top: 126px;
-  left: 503px;
+  left: 598px;
   color: white;
 }
 
